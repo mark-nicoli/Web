@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Random Quiz</title>
+<link href = "style.css" rel = "stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+<script src = "main.js"></script>
+
+</head>
+
+<body>
+<h1>Simple random Quiz</h1>
+<form id="quiz" name= "quiz">
+  <p class="question">What is the capital of Ireland</p>
+
+  <input id="text1" type="text" name="q1"><br>
+
+  <p class="question">What does HTML stand for</p>
+
+  <input type="radio" name="q2" value="How to meet ladies" checked>How to meet ladies<br>
+  <input type="radio" name="q2" value="Hyper Text Markup Language">Hyper Text Markup Language<br>
+
+  <p class="question">If your car begins to hyperplane you should:</p>
+
+  <input type="radio" name="q3" value="Let the car decelerate" checked>Let the car decelerate<br>
+  <input type="radio" name="q3" value="Do nothing and allow the car to run into the plabe it always dreamed of">Do nothing and allow the car to run into the plabe it always dreamed of<br>
+
+  <input id="button" type="button" value="submit" onclick="check();">
+
+</form>
+
+<div id ="after_submit">
+  <p id = "amount_correct"></p>
+  <p id = customres></p>
+  <img id ="pics"
+</div>
+
+</body>
+</html>
