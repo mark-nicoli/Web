@@ -3,4 +3,5 @@ HTML, JavaScript, CSS, PHP, SQL
 
 Includes front-end for Spotify jukebox web application for team project.
 
-Added personal portfolio (Hosted on AWS S3)
+CHANGES:
+  Added personal portfolio (Hosted on AWS S3)
