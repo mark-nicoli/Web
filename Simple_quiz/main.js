@@ -14,6 +14,7 @@ function check(){
   if (correct==0) res=2;
   if (correct==1) res=2;
   if (correct==2) res=1;
+  
   if (correct==3) res=0;
   document.getElementById("customres").innerHTML = custom[res];
   document.getElementById("pics").src = pic[res];
