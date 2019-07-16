@@ -7,6 +7,7 @@ function check(){
   if(q1=="Dublin") correct++;
   if(q2=="Hyper Text Markup Language") correct++;
   if(q3=="Let the car decelerate")correct++;
+  
 
   var custom = ["Nice job","Meh","Jeez thats dissapointing"];
   var pic = ["tenor.GIF","meh.jpg","fail.GIF"];
